@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #189e59;
+    color: white;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+header {
+    position: relative;
+    text-align: center;
+    background-color: #189e59  ;
+    color: black;
+    padding: 5px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #77d2ad;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.welcome-section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .welcome-content {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcome-content h1 {
+    color: white;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    margin-bottom: 0.5rem;
+  }
+  
+  .welcome-subtitle {
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+  }
+  
+  .welcome-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  }
+
+
+.Problem {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: #333;
+}
+
+
+.Problem-statement h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #189e59;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+
+.Problem-statement h2 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #189e59;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+
+.statement-content, 
+.solution-content {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+
+.statement-content p,
+.solution-content p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+
+.solution-content {
+  background-color: #e8f5e9;
+  border-left: 4px solid #189e59;
+}
+
+@media (max-width: 768px) {
+  .Problem {
+    padding: 1rem;
+  }
+  
+  .Problem-statement h1 {
+    font-size: 2rem;
+  }
+}
