@@ -139,3 +139,43 @@ nav a:hover {
     font-size: 2rem;
   }
 }
+
+/* Team Page */
+#jullie, #margaret {
+  font-size: 28px;
+}
+
+#memH2 {
+  font-size: 34px;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+#bussPlan {
+  font-size: 22px;
+}
+.Margaret-Work p,
+.Jullie-Work p {
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.picture {
+  padding: 2rem;
+}
+#Plan-PDF {
+  text-align: left;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+#margaret, #jullie {
+  text-align: left;
+  padding-left: 2rem;
+}
+
+/* Business Plan Page */
+#foodDia, #foodH2 {
+  padding-left: 2rem;
+}
+
